@@ -23,8 +23,8 @@ pin4 = Pin(0, Pin.OUT)
 dc_motorRL = DCMotor(pin3, pin4, enableRL, 350, 1023)
 
 
-def cont(y, x,s):
-    print('h,v,s=', y, x,s)
+def cont(y, x, s):
+    print('h,v,s=', y, x, s)
     r = 1023 / (2 ** .5)
 
     if (-r < x and x < r and y > 0):  # forward

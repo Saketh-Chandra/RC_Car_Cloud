@@ -2,6 +2,7 @@ import BlynkLib
 import network
 import machine
 
+
 def wificon():
     WIFI_SSID = 'saketh 1+6t'
     WIFI_PASS = 'Saketh 1+@6T'
